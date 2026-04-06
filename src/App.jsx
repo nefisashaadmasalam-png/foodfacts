@@ -33,6 +33,7 @@ function App() {
   return (
     <div style={{ textAlign: "center", padding: "20px" }}>
       <h1>Food Facts App</h1>
+      <h2>My Food App</h2>
 
       <SearchBar onSearch={handleSearch} />
 
