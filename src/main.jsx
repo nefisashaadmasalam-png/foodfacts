@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
@@ -8,3 +9,15 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </BrowserRouter>
 );
+=======
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
+>>>>>>> 76d94256bceb33c18bd944938d43519ca0b6773b
